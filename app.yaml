@@ -13,4 +13,4 @@
 # limitations under the License.
 
 runtime: python39
-service: HelloWorld-demo-service
+service: helloworld-demo-service
