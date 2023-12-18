@@ -23,6 +23,6 @@ instance_groups:
       max_instances: 2
       min_instances: 0
       cool_down_time_secs: 60
-#      cpu_usage:
-#        max_scaling_up_coefficient: 0.8
-#        min_scaling_down_coefficient: 0.6
+      cpu_usage:
+        max_scaling_up_coefficient: 0.8
+        min_scaling_down_coefficient: 0.6
