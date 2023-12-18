@@ -16,3 +16,8 @@ runtime: python39
 # The service name should always be in small letters only
 service: helloworld-demo-service
 
+automatic_scaling:
+  max_instances: 2  # Maximum number of instances to run
+  min_instances: 0  # Minimum number of instances to keep running
+  cool_down_time_secs: 60  # Time in seconds to wait before scaling after a change in load
+  # Choose your scaling metric and configure its thresholds
